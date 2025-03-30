@@ -107,6 +107,7 @@
 # print(next(prime_gen))  # Output: 2
 # print(next(prime_gen))  # Output: 3
 # print(next(prime_gen))  # Output: 5
+# print(next(prime_gen))  # Output: 7
 
 # for p in prime_gen:
 #     if p > 100:
@@ -148,7 +149,7 @@
 # _____________________________________________________________
 
 # # Generators can receive values via the send() method, enabling two-way communication.
-#  This is useful for advanced scenarios like coroutines.
+# #  This is useful for advanced scenarios like coroutines.
 
 # def counter():
 #     total = 0
@@ -160,6 +161,7 @@
 # # Usage
 # c = counter()
 # print(next(c))       # Output: 0 (initializes the generator)
+# print(next(c))       # Output: 0
 # print(c.send(5))     # Output: 5
 # print(c.send(10))    # Output: 15
 
@@ -212,15 +214,15 @@
 
 # Generators are great for processing streams, such as sensor data or API responses:
 
-def data_stream():
-    # Simulate a stream of incoming data
-    for i in range(100):
-        yield i
+# def data_stream():
+#     # Simulate a stream of incoming data
+#     for i in range(100):
+#         yield i
 
-# Usage
-for data in data_stream():
-    # Process each data point as it "arrives"
-    print(f"Processing {data}")
+# # Usage
+# for data in data_stream():
+#     # Process each data point as it "arrives"
+#     print(f"Processing {data}")
     
     
     
