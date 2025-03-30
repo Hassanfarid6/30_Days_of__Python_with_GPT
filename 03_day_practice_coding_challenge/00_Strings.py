@@ -4,7 +4,7 @@
 
 
 # Explanation
-
+# [start:stop:step]
 # s[::-1] is a slicing technique that reverses the string.
 # The slicing technique is a powerful tool in Python that allows you to extract a subset 
 # of a string, list, or any other iterable data structure.
@@ -21,6 +21,7 @@
 # _____________________________________________________________
 
 def Reverse(s):
+#          s[start: stop :step]
     return s[::-1]
 
 print(Reverse("hello"))
