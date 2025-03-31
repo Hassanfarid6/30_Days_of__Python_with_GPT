@@ -52,9 +52,9 @@ def most_common_element(lst):
             results.append(key)
     return results
         
-# print(most_common_element([1, 2, 2, 3, 2]))  # Output: 2
-# print(most_common_element([1, 1, 2, 2]))     # Output: 1 or 2
-# print(most_common_element(['a', 'b', 'a']))  # Output: 'a'
+print(most_common_element([1, 2, 2, 3, 2]))  # Output: 2
+print(most_common_element([1, 1, 2, 2]))     # Output: 1 or 2
+print(most_common_element(['a', 'b', 'a']))  # Output: 'a'
 
 
 
