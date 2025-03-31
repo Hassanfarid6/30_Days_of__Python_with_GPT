@@ -35,6 +35,8 @@ def most_common_element(lst):
     # iterate through the list and count the number of times each element is repeated.
     for num in lst:
         # if the element is already in the dictionary then increment the count by 1.
+    #Work like this num = 1: numbers_count = {1: 1},...
+    # num = 4: numbers_count = {1: 1, 2: 3, 3: 1}
         if num in numbers_count:
             numbers_count[num] += 1
         # if the element is not in the dictionary then add the element to the dictionary and set the count to 1.

@@ -19,7 +19,6 @@
 # Example:
 # fizz_buzz(1, 15, 3, 5)
 # Expected Output:
-
 # 1
 # 2
 # Fizz
@@ -38,6 +37,7 @@
 
 def fizz_buzz(start, end, fizz_num, buzz_num):
     """Prints numbers from start to end, replacing multiples with Fizz, Buzz, or FizzBuzz."""
+# It loops from 1 to 15 and checks each number.
     for num in range(start, end + 1):
         if num % fizz_num == 0 and num % buzz_num == 0:
             print("FizzBuzz")  # Multiple of both fizz_num and buzz_num
@@ -50,5 +50,7 @@ def fizz_buzz(start, end, fizz_num, buzz_num):
 
 fizz_buzz(1, 15, 3, 5)
 
+#fizz_buzz(1, 15, 3, 5)
+# start = 1, end = 15, fizz_num = 3, buzz_num = 5.
 
 # u can try adding input to the function to make it more dynamic
