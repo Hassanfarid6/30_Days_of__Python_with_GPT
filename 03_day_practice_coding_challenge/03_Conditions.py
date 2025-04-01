@@ -40,19 +40,19 @@ def is_prime(n):
     return True
 
 # Test the function with example inputs
-print(is_prime(2))  # True
-print(is_prime(4))  # False
-print(is_prime(17))  # True
-print(is_prime(1))  # False
-print(is_prime(1009))  # True
-print(is_prime(1013))  # True
+# print(is_prime(2))  # True
+# print(is_prime(4))  # False
+# print(is_prime(17))  # True
+# print(is_prime(1))  # False
+# print(is_prime(1009))  # True
+# print(is_prime(1013))  # True
 
 
 # _____________________________________________________________
 # Second approach
 # _____________________________________________________________
 
-def is_prime(n):
+def is_prime1(n):
     # If n is less than 2, it's not prime (covers 1, 0, and negative numbers)
     if n < 2:
         return False
@@ -61,3 +61,11 @@ def is_prime(n):
         if n % i == 0:
             return False  # Found a divisor, so n is not prime
     return True  # No divisors found, so n is prime
+
+# print(is_prime1(3))
+# print(is_prime1(2))  # True
+# print(is_prime1(4))  # False
+# print(is_prime1(17))  # True
+# print(is_prime1(1))  # False
+# print(is_prime1(1009))  # True
+# print(is_prime1(1013))  # True
