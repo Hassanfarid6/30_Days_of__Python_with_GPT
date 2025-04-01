@@ -29,7 +29,9 @@ original_list = ["apple", "banana", "apple", "cherry", "banana", "date"]
 # Convert list to set to remove duplicates
 unique_set = set(original_list)
 
+# Original list: ['apple', 'banana', 'apple', 'cherry', 'banana', 'date']
 print(f"Original list: {original_list}")
+# Set with duplicates removed: {'apple', 'cherry', 'banana', 'date'}  
 print(f"Set with duplicates removed: {unique_set}")
 
 # Explanation:
