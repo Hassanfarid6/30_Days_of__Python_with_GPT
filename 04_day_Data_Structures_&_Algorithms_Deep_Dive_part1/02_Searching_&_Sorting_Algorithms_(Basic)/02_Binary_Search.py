@@ -48,7 +48,7 @@ def binary_search(arr,target):
     return -1
 
 sorted_list = [1, 2, 3, 4, 5, 7, 9]
-target = 5
+target = 4
 result = binary_search(sorted_list, target)
 
 print(f"Sorted List: {sorted_list}")

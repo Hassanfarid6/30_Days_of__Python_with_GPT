@@ -33,17 +33,23 @@ def linear_search(arr, target):
     for i in range(len(arr)):
         if arr[i] == target:
             return i  # Return index if found
-    return -1  # Return -1 if not found
+    return -1   # Return -1 if not found
 
 # Example usage
-my_list = [4, 2, 7, 1, 9, 3]
-target = 7
+my_list = [4, 2, 7, 1, 9, 3] 
+# target = 7
+target = 5
 result = linear_search(my_list, target)
 
+                            # List: [4, 2, 7, 1, 9, 3]
 print(f"List: {my_list}")
+                           # Target: 7
 print(f"Target: {target}")
 if result != -1:
+                              # Element found at index: 2
     print(f"Element found at index: {result}")
 else:
+                              # if target= 5 or any other no 
     print("Element not found")
+                              # Element not found 
     

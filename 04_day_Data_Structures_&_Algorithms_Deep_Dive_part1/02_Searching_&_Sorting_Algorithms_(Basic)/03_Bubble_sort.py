@@ -1,6 +1,7 @@
 # Bubble Sort
 
-# Bubble Sort is a basic sorting algorithm that arranges a list in order (e.g., ascending). It repeatedly compares adjacent elements and swaps them if they’re in the wrong order, “bubbling” larger elements to the end.
+# Bubble Sort is a basic sorting algorithm that arranges a list in order (e.g., ascending). It repeatedly compares 
+# adjacent elements and swaps them if they’re in the wrong order, “bubbling” larger elements to the end.
 
 # How It Works
 
@@ -39,8 +40,7 @@ def bubble_sort(arr):
         for j in range(0, n - i - 1):
             # Traverse the list from 0 to n-i-1
             if arr[j] > arr[j + 1]:
-            # Swap if the element found is greater than the next element
-                # Swap elements
+                   # Swap if the element found is greater than the next element
                 arr[j], arr[j + 1] = arr[j + 1], arr[j]  # Swap elements
     return arr
 

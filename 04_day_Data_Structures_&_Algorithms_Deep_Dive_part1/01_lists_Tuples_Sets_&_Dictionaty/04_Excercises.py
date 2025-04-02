@@ -12,7 +12,7 @@ for item in my_list:
         frequency[item] = 1
 
 # Find the item with the maximum frequency
-most_frequent = max(frequency, key=frequency.get)
+most_frequent = max(frequency, key=frequency.get) #Out Put: Most frequent element: 2 (appears 3 times)
 
 print(f"List: {my_list}")
 print(f"Most frequent element: {most_frequent} (appears {frequency[most_frequent]} times)")
