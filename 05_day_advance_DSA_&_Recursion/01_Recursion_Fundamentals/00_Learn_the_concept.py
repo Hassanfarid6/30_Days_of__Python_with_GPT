@@ -130,7 +130,10 @@ def binary_search(arr, target, left, right):
 # Example usage
 sorted_list = [1, 3, 5, 7, 9, 11]
 target = 7
-result = binary_search(sorted_list, target, 0, len(sorted_list) - 1)
+left = 0
+right = len(sorted_list) - 1
+result = binary_search(sorted_list, target, left, right)
+
 if result != -1:
     print(f"Target {target} found at index {result}")  # Output: Target 7 found at index 3
 else:
