@@ -254,3 +254,30 @@ def partition(arr, low, high):
             arr[i], arr[j] = arr[j], arr[i]
     arr[i + 1], arr[high] = arr[high], arr[i + 1]
     return i + 1
+
+
+# with Example
+
+def quick_sort(arr, low, high):
+    if low < high:  # If we have toys to sort
+        pivot_idx = partition(arr, low, high)  # Split toys around a leader
+        quick_sort(arr, low, pivot_idx - 1)    # Sort the smaller toys
+        quick_sort(arr, pivot_idx + 1, high)   # Sort the bigger toys
+    return arr  # All toys sorted!
+
+def partition(arr, low, high):
+    pivot = arr[high]  # Pick the last toy as leader
+    i = low - 1  # Where smaller toys will go
+    for j in range(low, high):  # Check each toy
+        if arr[j] <= pivot:  # Smaller than the leader?
+            i += 1  # Move the small spot
+            arr[i], arr[j] = arr[j], arr[i]  # Swap it left
+    arr[i + 1], arr[high] = arr[high], arr[i + 1]  # Put leader in place
+    return i + 1  # Say where the leader is
+
+# Try it
+toys = [5, 2, 8, 1, 3]
+print(quick_sort(toys, 0, len(toys) - 1))  # Output: [1, 2, 3, 5, 8]
+
+# Time: O(n log n) usually, O(n²) if unlucky - Depends on splits!
+# Space: O(log n) usually, O(n) if unlucky - For the checklist
