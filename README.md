@@ -2,7 +2,7 @@
 
 Welcome to the **30-Day Python & AI Challenge**! This roadmap is designed to help you master Python, enhance your problem-solving skills, and gain hands-on experience in AI and GenAI development. By the end of this challenge, you will have the skills and confidence to tackle real-world projects, competitive programming, and advanced AI workflows.
 
----
+----------------------------------------------
 
 ## 🎯 What You Will Achieve
 
@@ -60,7 +60,7 @@ Welcome to the **30-Day Python & AI Challenge**! This roadmap is designed to hel
 - Explore fine-tuning open-source models like Llama, Falcon, and Mistral.
 - Build custom AI models for NLP, image processing, and automation.
 
----
+----------------------------------------------
 
 ## 🔥 Final Outcome
 
@@ -70,7 +70,7 @@ By the end of this journey, you will:
 - ✅ Be capable of working on AI-powered products, startups, or freelancing projects.
 - ✅ Be ready for AI research, OpenAI API development, or AI product engineering.
 
----
+----------------------------------------------
 
 ## 📌 How to Get Started
 
@@ -79,7 +79,7 @@ By the end of this journey, you will:
 3. Build projects and experiment with AI tools and frameworks.
 4. Track your progress and revisit topics as needed.
 
----
+----------------------------------------------
 
 ## 🤝 Contributing
 
